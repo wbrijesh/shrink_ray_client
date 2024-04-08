@@ -56,5 +56,3 @@ export default function Page({
     </>
   );
 }
-
-export const runtime = "experimental-edge";
