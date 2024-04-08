@@ -80,3 +80,5 @@ export default async function handler(
     .status(200)
     .end();
 }
+
+export const runtime = "edge";
