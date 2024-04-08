@@ -7,6 +7,8 @@ import type { Session, User } from "lucia";
 import type { IncomingMessage, ServerResponse } from "http";
 import type { DatabaseUser } from "./db";
 
+globalThis.crypto = webcrypto as Crypto;
+
 const dbAuthTableNames = {
   user: "user",
   session: "session",
