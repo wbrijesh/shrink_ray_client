@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+input {
+  border: 1px solid #ccc;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.15rem;
+}
+
+button {
+  border: 1px solid #111;
+  background-color: #ccc;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.15rem;
+}
+
+body {
+  padding: 3rem;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: underline;
+}
+
+div {
+  margin: 1rem 0;
+}
