@@ -1,6 +1,6 @@
 import { Lucia } from "lucia";
 import { db } from "./db";
-import { webcrypto } from "crypto";
+import { webcrypto } from "node:crypto";
 import { LibSQLAdapter } from "@lucia-auth/adapter-sqlite";
 
 import type { Session, User } from "lucia";
